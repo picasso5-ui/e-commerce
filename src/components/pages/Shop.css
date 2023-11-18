@@ -1,0 +1,37 @@
+.productimg {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.productimg:hover {
+  transform: scale(1.1);
+}
+.card-parent {
+  display: flex;
+}
+.card {
+  background-color: red;
+  margin-bottom: 20px;
+}
+.priceTag {
+  font-weight: 500;
+}
+.AddToCartBtn {
+  background-color: black;
+  font-weight: 500;
+}
+.AddToCartBtn:hover {
+  background-color: green;
+}
+div.card {
+  background-color: #0cebeb;
+}
+.card-Body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ProductList.css */

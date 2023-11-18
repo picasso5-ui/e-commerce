@@ -1,0 +1,44 @@
+.heroImg {
+  width: 500px;
+  max-width: 100%;
+  margin-top: 40px;
+  height: auto;
+  animation: jump 1s infinite;
+  filter: hue-rotate(70deg);
+}
+.HomeBtn {
+  padding: 10px 40px;
+  background-color: aqua;
+  font-weight: 500;
+  border-radius: 8px;
+}
+.HomeTitle {
+  font-size: 20px;
+  font-family: inherit;
+}
+
+@keyframes jump {
+  0%,
+  100% {
+    transform: translateY(
+      0
+    ); /* Start and end position (no vertical movement) */
+  }
+  50% {
+    transform: translateY(
+      -20px
+    ); /* Jump up 20 pixels at the middle of the animation */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .col1 {
+    order: 1;
+  }
+  .heroImg {
+    width: 250px;
+  }
+  .HomeBtn {
+    margin-bottom: 100px;
+  }
+}

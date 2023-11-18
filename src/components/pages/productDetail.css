@@ -1,0 +1,8 @@
+.productDetailImg{
+    max-width: 150px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+.productDetailImg:hover{
+    transform: scale(1.1); 
+}

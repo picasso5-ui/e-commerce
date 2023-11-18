@@ -1,0 +1,39 @@
+.footer {
+  color: #fff;
+  padding: 20px 0;
+  background-color: #0cebeb;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer-section {
+  flex: 1;
+  margin: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+  }
+  .footer-section {
+    margin: 0;
+  }
+}

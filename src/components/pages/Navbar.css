@@ -1,0 +1,23 @@
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  background-color: #0cebeb;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: green;
+}
+li {
+  list-style: none;
+}
+
+@media screen and (max-width: 768px) {
+  h4 {
+    font-size: 18px;
+  }
+}
